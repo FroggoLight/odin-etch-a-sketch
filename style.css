@@ -3,7 +3,8 @@ body {
 }
 
 .verticalBox {
-    align-self: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .topBar {
@@ -27,13 +28,27 @@ body {
 }
 
 .sketch-row {
-    width: 20px;
-    height: 20px;
     background-color: white;
     border: 0.3px solid black;
+}
+
+.separatorBar {
+    height: 20px;
+    width: auto;
+    background-color: azure;
 }
 
 #middleMain {
     display: flex;
     flex-direction: column;
+    width: 960px;
+    height: 960px;
+}
+
+.centerFrame div {
+    align-items: center;
+}
+
+#middleMain div {
+    align-items: center;
 }
