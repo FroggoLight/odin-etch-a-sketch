@@ -1,12 +1,25 @@
-* {
-    color: brown;
+body {
+    background-color:azure;
 }
 
-.topBox {
+.topBar {
     display: flex;
-    color:lightblue;
+    background-color:lightblue;
 }
 
-.verticalBox {
-    color:brown;
+.topBar div {
+    background-color:aquamarine;
+    border: 1px solid black;
+    height: 40px;
+    flex: 1 1 0%;
+}
+
+.topRight {
+    text-align: center;
+}
+
+.small-boxes {
+    width: 96px;
+    height: 96px;
+    background-color: grey;
 }
