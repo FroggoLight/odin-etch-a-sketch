@@ -2,6 +2,10 @@ body {
     background-color:azure;
 }
 
+.verticalBox {
+    align-self: center;
+}
+
 .topBar {
     display: flex;
     background-color:lightblue;
@@ -18,8 +22,18 @@ body {
     text-align: center;
 }
 
-.small-boxes {
-    width: 96px;
-    height: 96px;
-    background-color: grey;
+.sketch-column {
+    display: flex;
+}
+
+.sketch-row {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#middleMain {
+    display: flex;
+    flex-direction: column;
 }
