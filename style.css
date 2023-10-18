@@ -1,0 +1,12 @@
+* {
+    color: brown;
+}
+
+.topBox {
+    display: flex;
+    color:lightblue;
+}
+
+.verticalBox {
+    color:brown;
+}
