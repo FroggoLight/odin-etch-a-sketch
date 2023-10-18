@@ -14,9 +14,15 @@ function doStuff() {
         for (j = 0; j < 16; j++) {
             let row = document.createElement("div");
             row.className = "sketch-row";
+            row.addEventListener("mouseover", function() {doSomethingElse(row)})
             column.appendChild(row);
         }
         
         mainMiddle.appendChild(column);
     }
+}
+
+
+function doSomethingElse(row) {
+    row.style.backgroundColor = "black";
 }
